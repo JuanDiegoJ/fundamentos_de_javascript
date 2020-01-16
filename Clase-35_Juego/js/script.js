@@ -103,7 +103,7 @@ class Juego {
             this.subnivel++
             if (this.subnivel === this.nivel){
                 this.nivel++
-                //this.eliminarEventosClick()
+                this.eliminarEventosClick()
                 if (this.nivel === (ULTIMO_NIVEL + 1)){
                     //Ganó
                 } else {
